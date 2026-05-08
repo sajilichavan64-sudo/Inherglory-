@@ -563,3 +563,131 @@ font-size:1.5rem;
 }
 
 }
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+/* NAVBAR */
+
+.navbar{
+flex-direction:column;
+padding:15px 5%;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+/* HERO */
+
+.hero{
+padding-top:120px;
+height:auto;
+min-height:100vh;
+}
+
+.hero-title,
+.hero h1{
+font-size:3.2rem !important;
+line-height:1.2;
+}
+
+.hero p{
+font-size:1rem;
+padding:0 10px;
+}
+
+.hero-logo{
+width:80px;
+height:80px;
+}
+
+/* TITLES */
+
+.title{
+font-size:2.5rem;
+}
+
+/* PRODUCTS */
+
+.products{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.card img{
+height:320px;
+}
+
+/* POLICY */
+
+.policy{
+padding:30px 20px;
+}
+
+/* CARE */
+
+.care{
+padding:30px 20px;
+}
+
+.care h3{
+font-size:2rem;
+}
+
+/* CONTACT */
+
+.contact form{
+width:100%;
+}
+
+/* INSTAGRAM */
+
+.insta-box{
+padding:30px 20px;
+}
+
+.insta-box h2{
+font-size:2rem;
+}
+
+/* FOOTER */
+
+.footer h2{
+font-size:2rem;
+}
+
+}
+
+
+/* EXTRA SMALL DEVICES */
+
+@media(max-width:480px){
+
+.hero-title,
+.hero h1{
+font-size:2.5rem !important;
+}
+
+.btn{
+width:100%;
+max-width:280px;
+}
+
+.card img{
+height:280px;
+}
+
+.logo{
+width:45px;
+height:45px;
+}
+
+.brand-name{
+font-size:1.4rem;
+}
+
+}
